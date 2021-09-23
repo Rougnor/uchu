@@ -1,7 +1,19 @@
 "use strict";
-let Rom = () => {
-    return confirm('You Daun','Entery text');
+let numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', 'Введите число..');
+
+const personalMoveDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    private: false
 };
 
-console.log(Rom());
-
+let a = 0;
+while (a !== 2) {
+    let watFilm = prompt('Какой фильм вы смотрели недавно?', 'Название....');
+    let watGreidFilm = +prompt('Как вы его оцениваете?(0 до 5)', '5');
+    a++;
+    personalMoveDB.movies[watFilm] = watGreidFilm;
+}
+console.log(personalMoveDB);
