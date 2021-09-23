@@ -16,4 +16,3 @@ while (a !== 2) {
     a++;
     personalMoveDB.movies[watFilm] = watGreidFilm;
 }
-console.log(personalMoveDB);
