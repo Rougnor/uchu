@@ -1,6 +1,8 @@
 "use strict";
 let Rom = () => {
-    confirm('You Daun','Entery text');
+    return confirm('You Daun','Entery text');
 };
 
 Rom();
+
+
