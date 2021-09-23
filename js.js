@@ -2,3 +2,5 @@
 let Rom = () => {
     confirm('You Daun','Entery text');
 };
+
+Rom();
