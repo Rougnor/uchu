@@ -28,7 +28,7 @@ function watIsFilms() {
     }
 }
 
-function watIsYourLevel(){
+function watIsYourLevel() {
     if (personalMoveDB.count < 10) {
         alert('Вы смотрели мало фильмов');
     } else if (personalMoveDB.count >= 10 && personalMoveDB.count < 30) {
@@ -41,16 +41,14 @@ function watIsYourLevel(){
     }
 }
 
-function writeYourGenres(){
-    for(let i=1; i<=3; i++){
-        personalMoveDB.genres[i-1] = prompt(`Ваш любимый жанр под номером ${i}`,'');
+function writeYourGenres() {
+    for (let i = 1; i <= 3; i++) {
+        personalMoveDB.genres[i - 1] = prompt(`Ваш любимый жанр под номером ${i}`, '');
     }
 }
 
 let numberOfFilms;
-
 start();
-
 const personalMoveDB = {
     count: numberOfFilms,
     movies: {},
@@ -63,3 +61,11 @@ watIsFilms();
 watIsYourLevel();
 writeYourGenres();
 showMyDB(personalMoveDB);
+
+
+
+
+
+
+
+
