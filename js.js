@@ -69,17 +69,14 @@ const personalMoveDB = {
 
 
 };
-personalMoveDB.start();
-personalMoveDB.watIsFilms();
-personalMoveDB.watIsYourLevel();
-personalMoveDB.writeYourGenres();
-personalMoveDB.showMyDB();
-personalMoveDB.toggleVisibleMyDB();
+// personalMoveDB.start();
+// personalMoveDB.watIsFilms();
+// personalMoveDB.watIsYourLevel();
+// personalMoveDB.writeYourGenres();
+// personalMoveDB.showMyDB();
+// personalMoveDB.toggleVisibleMyDB();
 
 
-
-
-
-
-
+const buton = document.getElementsByTagName("button");
+console.log(buton[2]);
 
